@@ -3,7 +3,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 export default function Hero() {
-  const phrase = "Super smooth parallax scrolling effect";
+  const phrase = "Michelle Antebi's Scrolling Page";
   const words = phrase.split(" ");
 
   const ref = useRef(null);
@@ -23,8 +23,8 @@ export default function Hero() {
       className="min-h-lvh pt-[5lvh] pb-[5lvh] pr-[5lvw] pl-[5lvw] flex flex-col justify-between"
     >
       <motion.div style={{ padding }} className="flex justify-between">
-        <p className="h3 uppercase">smoooth</p>
-        <p className="h3 uppercase">scroll</p>
+        <p className="h3 uppercase">Welcome</p>
+        <p className="h3 uppercase">To the Future</p>
       </motion.div>
 
       <div className="flex flex-wrap uppercase">
